@@ -1,0 +1,489 @@
+* {
+  margin: 0px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 2;
+}
+
+.bg-grey {
+  background: #f7f7f7;
+}
+
+section > .container {
+  width: 1170px;
+  margin: auto;
+  display: block;
+  padding: 30px 50px;
+}
+
+#nav-bar {
+  text-align: center;
+}
+
+/* Banner */
+.banner-title {
+  color: white;
+  font-size: 1rem;
+  text-transform: uppercase;
+  position: absolute;
+  top: 9%;
+  left: 32%;
+}
+
+.information {
+  color: white;
+  font-size: 0.8rem;
+  position: absolute;
+  top: 12%;
+  left: 37%;
+}
+
+.banner-img {
+  position: relative;
+}
+
+.img-banner {
+  width: 100%;
+}
+
+/* Navbar */
+
+.avatar {
+  border: 1rem solid #fff;
+  border-radius: 100%;
+  position: absolute;
+  margin-top: -6rem;
+  /* display: none; */
+}
+
+a {
+  text-decoration: none;
+}
+
+.space-around {
+  display: grid;
+  gap: 2rem;
+  margin-left: -48rem;
+  justify-content: center;
+  justify-items: start;
+}
+
+.icon-user,
+.icon-doc-text-inv,
+.icon-mail-alt,
+.icon-star-1 {
+  color: #199cdb;
+}
+
+/* Thông tin cá nhân */
+
+.muctieu {
+  width: 35%;
+}
+
+.mt-40info {
+  list-style: none;
+}
+
+.icon-app {
+  margin-left: 2rem;
+  color: #199cdb;
+}
+
+.title {
+  margin-left: 2rem;
+}
+
+#personal-info {
+  margin-left: -2rem;
+}
+
+#form-container {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+}
+
+/* Thông tin nghề nghiệp */
+
+/*  Kinh nghiệm  */
+
+.layout {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  margin-bottom: 2rem;
+}
+
+.ic-toolbox,
+.ic-pencil,
+.ic-mic,
+.ic-tools-2,
+.ic-telescope {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.kinhnghiem {
+  border: 1px solid #868e96;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  width: 30%;
+}
+
+.hientai {
+  width: 5rem;
+  font-style: italic;
+  text-align: center;
+  color: #fff;
+  background-color: #199cdb;
+  border-radius: 5px;
+  margin-left: 5rem;
+  margin-top: -2.5rem;
+}
+
+i {
+  color: #868e96;
+}
+
+/*  Học Vấn  */
+
+.hocvan {
+  border: 1px solid #868e96;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  width: 30%;
+}
+
+/* Hoạt Động */
+
+.hoatdong {
+  border: 1px solid #868e96;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  width: 30%;
+}
+
+/* Sở Thích */
+
+.sothich {
+  border: 1px solid #868e96;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  width: 30%;
+}
+
+.flex {
+  display: flex;
+}
+
+.icon-container {
+  text-align: center;
+  width: 25%;
+}
+.icon {
+  color: #199cdb;
+  margin: 1rem;
+  border: 1px solid #199cdb;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ic-megaphone,
+.ic-strategy,
+.ic-hotairballoon,
+.ic-basket {
+  color: #868e96;
+}
+
+/* Ngôn Ngữ */
+
+.ngonngu {
+  border: 1px solid #868e96;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  width: 30%;
+}
+
+.blue-underline {
+  width: 5rem;
+  border: 2px solid #00bfff;
+  display: inline-block;
+  border-radius: 1rem;
+}
+
+.gray-underline {
+  width: 5rem;
+  border: 2px solid #868e96;
+  display: inline-block;
+  border-radius: 1rem;
+}
+
+/* Kỹ năng */
+
+.kynang {
+  border: 1px solid #868e96;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  width: 30%;
+}
+
+/* Chứng chỉ - giải thưởng */
+
+.chungchi {
+  margin-left: -2rem;
+  width: 100%;
+}
+
+.img-chungchi {
+  margin-bottom: 5rem;
+}
+
+.border1 {
+  border-left: 1px solid #d6c08d;
+}
+
+.border {
+  width: 90%;
+  margin: 2rem;
+  border-top: 1px solid #d6c08d;
+  margin-left: 0rem;
+}
+
+.thongtin {
+  margin-bottom: 2rem;
+}
+
+.anh {
+  margin-bottom: 3rem;
+  height: 10rem;
+}
+
+/* Dự án */
+
+.duan {
+  width: 30%;
+}
+
+.section-title {
+  margin-bottom: 2rem;
+  font-size: 30px;
+}
+
+.anh1 {
+  height: 12rem;
+  width: 20rem;
+}
+
+.project {
+  height: 60rem;
+  margin-bottom: 2rem;
+}
+
+.cv {
+  border: 1px solid #ddd;
+  padding: 1rem;
+}
+
+.gioithieu {
+  display: flex;
+  gap: 1em;
+  border: 1px solid #ddd;
+  padding: 1rem;
+}
+
+.nam {
+  width: 4rem;
+  font-style: italic;
+  text-align: center;
+  color: #fff;
+  background-color: #199cdb;
+  border-radius: 17px;
+}
+
+table {
+  width: 25.6rem;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 1.5rem;
+  text-align: left;
+  align-items: stretch;
+  border: 1px solid #ddd;
+}
+
+a
+
+  /* Thông tin liên hệ */
+
+  ul {
+  list-style: none;
+}
+
+.lienhe {
+  width: 15rem;
+  margin-left: -2rem;
+}
+
+.icon-facebook-circled,
+.icon-linkedin-circled,
+.icon-github-circled {
+  font-size: 1.2rem;
+  color: blue;
+  margin-left: 0rem;
+}
+
+.bg-grey1 {
+  margin-top: 3rem;
+}
+
+/* Ẩn thông tin cá nhân */
+
+.form-container {
+  margin-left: 1rem;
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}
+
+button {
+  background-color: #74c0fc;
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid #228be6;
+}
+
+button:active {
+  background-color: #1971c2;
+  transform: translateY(4px);
+}
+
+/* Chức năng ẩn thông tin nghề nghiệp */
+
+#experience_card button {
+  display: none;
+  margin-left: 12rem;
+}
+
+#experience_card:hover {
+  button {
+    display: block;
+  }
+}
+#experience_card div:nth-child(3) {
+  display: none;
+}
+
+#experience_card div:nth-child(4) {
+  grid-column: 2;
+}
+
+#experience_card1 button {
+  display: none;
+  margin-left: 12rem;
+}
+
+#experience_card1:hover {
+  button {
+    display: block;
+  }
+}
+#experience_card1 div:nth-child(3) {
+  display: none;
+}
+
+#experience_card1 div:nth-child(4) {
+  grid-column: 2;
+}
+
+#experience_card2 button {
+  display: none;
+  margin-left: 12rem;
+}
+
+#experience_card2:hover {
+  button {
+    display: block;
+  }
+}
+#experience_card2 div:nth-child(3) {
+  display: none;
+}
+
+#experience_card2 div:nth-child(4) {
+  grid-column: 2;
+}
+#experience_card3 button {
+  display: none;
+  margin-left: 12rem;
+}
+
+#experience_card3:hover {
+  button {
+    display: block;
+  }
+}
+#experience_card3 div:nth-child(3) {
+  display: none;
+}
+
+#experience_card3 div:nth-child(4) {
+  grid-column: 2;
+}
+
+#experience_card4 button {
+  display: none;
+  margin-left: 12rem;
+}
+
+#experience_card4:hover {
+  button {
+    display: block;
+  }
+}
+#experience_card4 div:nth-child(3) {
+  display: none;
+}
+
+#experience_card4 div:nth-child(4) {
+  grid-column: 2;
+}
+#experience_card5 button {
+  display: none;
+  margin-left: 12rem;
+}
+
+#experience_card5:hover {
+  button {
+    display: block;
+  }
+}
+#experience_card5 div:nth-child(3) {
+  display: none;
+}
+
+#experience_card5 div:nth-child(4) {
+  grid-column: 2;
+}
