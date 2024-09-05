@@ -85,6 +85,7 @@ a {
 
 .mt-40info {
   list-style: none;
+  width: 90%;
 }
 
 .icon-app {
@@ -106,7 +107,15 @@ a {
   margin-left: 1rem;
 }
 
+.text-mobile {
+  width: 80%;
+}
+
 /* Thông tin nghề nghiệp */
+
+.khoangcach-mobile {
+  margin-left: -1rem;
+}
 
 /*  Kinh nghiệm  */
 
@@ -249,7 +258,7 @@ i {
 }
 
 .border {
-  width: 90%;
+  width: 30%;
   margin: 2rem;
   border-top: 1px solid #d6c08d;
   margin-left: 0rem;
@@ -261,17 +270,24 @@ i {
 
 .anh {
   margin-bottom: 3rem;
+  margin-left: 1rem;
   height: 10rem;
+}
+
+.title-mobile {
+  font-size: 18px;
 }
 
 /* Dự án */
 
 .duan {
   width: 30%;
+  margin-left: -1rem;
 }
 
 .section-title {
   margin-bottom: 2rem;
+  margin-left: -1rem;
   font-size: 30px;
 }
 
@@ -327,7 +343,8 @@ a
 }
 
 .lienhe {
-  width: 15rem;
+  display: flex;
+  gap: 15px;
   margin-left: -2rem;
 }
 
